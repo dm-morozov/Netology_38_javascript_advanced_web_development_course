@@ -1,0 +1,24 @@
+{
+  "name": "test01",
+  "version": "1.0.0",
+  "description": "I don`t know",
+  "homepage": "https://github.com/dm-morozov/Netology_38_javascript_advanced_web_development_course#readme",
+  "bugs": {
+    "url": "https://github.com/dm-morozov/Netology_38_javascript_advanced_web_development_course/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dm-morozov/Netology_38_javascript_advanced_web_development_course.git"
+  },
+  "license": "ISC",
+  "author": "dm-morozov",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+     "serve": "http-server ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
