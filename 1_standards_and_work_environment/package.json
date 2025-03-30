@@ -15,10 +15,18 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-     "serve": "http-server ./src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "live-server ./src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "http-server": "^14.1.1"
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.5",
+    "globals": "^16.0.0",
+    "live-server": "^1.2.2",
+    "prettier": "^3.5.3"
   }
 }

@@ -5,9 +5,11 @@ node_modules/
 dist/
 build/
 
-# Логи
+# Логи и кэш
 *.log
 *.log.*
+coverage/
+
 
 # Локальные настройки редакторов
 .vscode/
